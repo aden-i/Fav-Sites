@@ -118,6 +118,7 @@ body {
   background: black;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease;
 }
@@ -125,7 +126,7 @@ body {
   margin: 15px 0;
 }
 .content__site-card-s--yt {
-  background: url("../img/ytLogo.png") 0 0/cover no-repeat;
+  background: linear-gradient(90deg, #db0a00 0%, #d76661 100%);
 }
 .content__site-card-s--yt:hover {
   box-shadow: 0 0 20px red;
@@ -135,5 +136,14 @@ body {
   color: white;
   font-size: 30px;
   font-weight: 300;
-  padding: 0 0 0 5%;
+  margin: 0 0 0 5%;
+}
+.content__sc-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 5% 0 0;
+  background: orange;
+}
+.content__sc-logo--yt {
+  background: url("../img/ytLogo124.png") 0/100% no-repeat;
 }
