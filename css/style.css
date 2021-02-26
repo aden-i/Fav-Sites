@@ -107,10 +107,12 @@ body {
 .content__sites {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .content__site-card {
   text-decoration: none;
+}
+.content__site-card:nth-child(even) {
+  margin: 0 0 0 30px;
 }
 .content__site-card-s {
   width: 570px;
