@@ -134,6 +134,15 @@ body {
   box-shadow: 0 0 20px red;
   transition: 0.3s ease;
 }
+.content__site-card-s--sc8 {
+  background: linear-gradient(90deg, #d2f6ff 0%, white 100%);
+}
+.content__site-card-s--sc8 h2 {
+  color: black;
+}
+.content__site-card-s--sc8:hover {
+  box-shadow: 0 0 20px white;
+}
 .content__sc-title {
   color: white;
   font-size: 30px;
@@ -148,4 +157,7 @@ body {
 }
 .content__sc-logo--yt {
   background: url("../img/ytLogo124.png") 0/100% no-repeat;
+}
+.content__sc-logo--sc8 {
+  background: url("../img/icons/headerLogo.svg") 0/90% no-repeat;
 }
